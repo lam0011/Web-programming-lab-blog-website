@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech News Today - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-5 px-8">
+            <h1 class="text-4xl font-bold text-blue-700">Tech News Today</h1>
+            <nav>
+                <ul class="flex space-x-6 text-lg font-semibold">
+                    <li><a href="index.html" class="text-gray-700 hover:text-blue-500 transition">Home</a></li>
+                    <li><a href="about.html" class="text-gray-700 hover:text-blue-500 transition">About</a></li>
+                    <li><a href="blog.html" class="text-gray-700 hover:text-blue-500 transition">Blog</a></li>
+                    <li><a href="contact.html" class="text-gray-700 hover:text-blue-500 transition">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-200 py-12 text-center">
+        <h2 class="text-5xl font-extrabold text-blue-800">Welcome to Tech News Today</h2>
+        <p class="text-lg text-gray-700 mt-3">Sharing my thoughts and knowledge with the world.</p>
+    </section>
+
+    <!-- Main Section -->
+    <main class="container mx-auto my-12 px-6 md:px-16">
+        <div class="grid md:grid-cols-1 gap-12">
+            <!-- Blog Post -->
+            <article class="bg-white p-8 rounded-lg shadow-lg border border-gray-300">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">The Power of JavaScript Frameworks</h2>
+                <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                    JavaScript has become the backbone of modern web development, and the rise of powerful frameworks like React, Angular, and Vue.js has transformed how developers build web applications. These frameworks enable the creation of dynamic, single-page applications (SPAs) that offer a more app-like experience to users. With features like component-based architecture and state management, these frameworks have streamlined the development process and improved performance.
+                </p>
+                <img src="Asset/javascript.jpg" alt="Blog Image" class="w-full h-auto rounded-lg shadow-md">
+            </article>
+            <article class="bg-white p-8 rounded-lg shadow-lg border border-gray-300">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">The Evolution of Web Development: Trends, Tools, and Techniques Shaping the Future</h2>
+                <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                    Discover the latest trends, tools, and techniques revolutionizing web development. From responsive design to AI-driven development, explore how the industry is evolving and what it means for developers and businesses alike. Stay ahead of the curve with insights into the future of web development.
+                </p>
+                <img src="Asset/2nd.jpg" alt="Blog Image" class="w-full h-auto rounded-lg shadow-md">
+            </article>
+        </div>
+    </main>
+
+    <!-- Author Section -->
+    <section class="bg-gray-100 py-12">
+        <div class="container mx-auto px-6 md:px-16">
+            <div class="bg-white p-8 rounded-lg shadow-lg border border-gray-300">
+                <h3 class="text-2xl font-semibold">The Author</h3>
+                <p class="text-gray-600 mt-4 leading-relaxed">
+                    Lamia Alif Rouza an aspiring tech blog writer. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+   <!-- Footer -->
+   <footer class="bg-gray-800 text-white py-12 mt-12">
+    <div class="container mx-auto px-6 md:px-16">
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- About Section -->
+            <div>
+                <h3 class="text-xl font-semibold mb-4">About Tech News Today</h3>
+                <p class="text-gray-400 leading-relaxed">
+                    Tech News Today is a blog dedicated to sharing insights, tutorials, and news about the latest trends in technology and web development.
+                </p>
+            </div>
+
+            <!-- Newsletter Section -->
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Subscribe to Our Newsletter</h3>
+                <form class="flex flex-col space-y-4">
+                    <input type="email" placeholder="Your email address" class="p-2 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition">Subscribe</button>
+                </form>
+            </div>
+
+            <!-- Social Media Links -->
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-gray-400 hover:text-blue-500 transition">Twitter</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-blue-500 transition">LinkedIn</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-blue-500 transition">GitHub</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-blue-500 transition">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+            <p class="text-gray-400">&copy; 2025 Tech News Today. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
